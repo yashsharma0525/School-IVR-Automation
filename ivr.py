@@ -12,7 +12,7 @@ CALL_LOG_FILE    = "call_logs.txt"             # To log call history
 RETRY_LOG_FILE   = "retry_logs.txt"            # To manage retry limits
 MAX_ATTEMPTS     = 300                         # Max retry attempts per hour
 BLOCK_DURATION   = timedelta(hours=1)          # Retry block period
-STAFF_NUMBER     = "919219220759"              # Number to notify for Option 4
+STAFF_NUMBER     = "91XXXXXXXXXX"              # Number to notify for Option 4
 ANSWER_BUTTON_PIN = 17                         # Button to answer staff call
 CUT_BUTTON_PIN    = 27                         # Button to manually cut call
 
