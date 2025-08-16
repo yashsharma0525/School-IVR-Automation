@@ -68,3 +68,13 @@ Cloud-based call reports dashboard.
 Integration with WhatsApp Business API.
 
 Voice-to-Text for recording user messages.
+
+## **Video of IVR**
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7357771880084230144" height="1402" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<img width="780" height="540" alt="gpio-layout-adobe-569033646" src="https://github.com/user-attachments/assets/9ef11833-f2d7-454b-9bed-bd73b073614d" />
+
+![1754230285061](https://github.com/user-attachments/assets/0a3105bb-f633-4911-89a0-2cf697a9a736)
+
+
+
