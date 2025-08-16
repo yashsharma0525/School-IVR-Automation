@@ -59,6 +59,37 @@ ivr_project/
 
 4. Place your audio files inside the audio/ folder.
 
+## 🔌 Hardware Connections
+
+### 📱 SIM800L ↔ Raspberry Pi
+| SIM800L Pin | Raspberry Pi Pin | Description |
+|-------------|------------------|-------------|
+| VCC (4V)    | External 4V–4.2V Supply (NOT Pi 5V) | Power input (use separate power supply with >2A current) |
+| GND         | GND              | Common ground |
+| TXD         | GPIO15 (RXD)     | Pi UART RX |
+| RXD         | GPIO14 (TXD)     | Pi UART TX |
+| RST         | (Optional, GPIO pin) | Reset pin |
+| NET/ANT     | Antenna          | GSM antenna connection |
+
+⚠️ **Important Notes:**
+- SIM800L does **not work directly on 5V**. Use **4V supply (Li-ion battery or buck converter)**.  
+- Always connect **common ground (GND ↔ GND)** between Pi and SIM800L.  
+- For stable network, connect an **external antenna**.  
+- Raspberry Pi UART should be enabled (`raspi-config → Interface Options → Serial`).  
+
+---
+
+### 🎶 Audio (Optional)
+- For playing IVR menu audios:
+  - Use `cvlc` on Raspberry Pi to play `.mp3` files via speaker.  
+- If you want 2-way voice (caller ↔ staff):
+  - Use a **USB Sound Card** + Mic/Headset with SIM800L audio pins (SPK+ / SPK–, MIC+ / MIC–).  
+
+---
+
+### 🖥 System Overview
+
+
 ## Future Improvements
 
 Multi-language IVR (Hindi + English).
